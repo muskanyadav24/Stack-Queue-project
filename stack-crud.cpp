@@ -18,7 +18,7 @@ class Stack{
             if (top == size - 1){
                 cout << "Stack is full" << endl;
             }else{
-                arr[++top] = value;
+                arr[top++] = value;
                 cout << value << " pushed" << endl;
             }
         }
