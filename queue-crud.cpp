@@ -21,7 +21,7 @@ public:
             cout << "Queue is full" << endl;
         } else {
             if (front == -1) front = 0;
-            arr[++rear] = value;
+            arr[rear++] = value;
             cout << value << " enqueued" << endl;
         }
     }
